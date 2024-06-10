@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:layout_margin="20dp"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/root_status_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check root detection"/>
+
+    <Button
+        android:id="@+id/emulator_status_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check emulator detection"/>
+
+    <Button
+        android:id="@+id/debug_status_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check debug detection"/>
+
+    <Button
+        android:id="@+id/frida_status_btn"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Check frida detection"/>
+
+</LinearLayout>
